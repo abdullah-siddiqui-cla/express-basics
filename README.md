@@ -24,8 +24,8 @@
 ## Objective: Handle query parameters in routes.
 ## Steps:
 - Add a route `/search` that accepts a query parameter `q`.
-- Respond with Search results for: `q`.
-- Test the route by visiting paths like `/search?q=express`.
+- Respond with `Search results for: <q>`.
+- Test the route by visiting paths like `/search?q=express`. The response should be `Search results for: express`
 
 # Exercise 5: Using Express Router
 ## Objective: Organize routes using express.Router.
